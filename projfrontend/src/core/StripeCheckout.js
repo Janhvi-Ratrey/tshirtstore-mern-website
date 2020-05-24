@@ -62,7 +62,7 @@ const StripeCheckout = ({products, setReload = f=> f, reload = undefined}) => {
     const showStripeButton = () => {
         return isAuthenticated()? (
             <StripeCheckoutButton
-            stripeKey = "pk_test_FyVrqybvLmNdmdXiSy54Jopc00hdYpkeJ8"
+            stripeKey = ""
             token={makePayment}
             amount={getFinalPrice()*100}
             name = "Buy"
