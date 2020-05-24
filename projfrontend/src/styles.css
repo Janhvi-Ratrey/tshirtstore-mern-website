@@ -1,0 +1,32 @@
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+body {
+  background: #343a40;
+  min-height: 70vh;
+  position: relative;
+}
+
+footer{
+  position: absolute;
+  top: 100%;    /*88 100 */
+  
+  left: 0px;
+  right: 0px;
+  margin-top: 10px;
+
+}
+ #main{
+   
+  max-height: 50vh;
+  bottom:90px ;
+  margin-top: 10px; 
+  left: 0px;
+  right: 0px;
+  position: relative;
+
+}
+
